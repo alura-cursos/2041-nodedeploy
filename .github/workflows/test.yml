@@ -1,0 +1,16 @@
+name: Test workflow
+
+on:
+  push:
+    branches: 
+      - "final"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Install dependencies
+      run: npm install
+    - name: Run tests
+      run: npm run test
