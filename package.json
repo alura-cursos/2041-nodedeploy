@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint src/**",
+    "lint": "./node_modules/.bin/eslint .",
     "test": "./node_modules/.bin/jest",
     "tdd": "./node_modules/.bin/jest --watch"
   },
