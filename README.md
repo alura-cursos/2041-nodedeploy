@@ -5,6 +5,9 @@
 - write first test
 - config eslint to work with jest
 - add mock for TabelaFornecedor.js
+- test on Postman
+- doc all routes on Postman, export file
+- publish docs
 - add npm script test
 - add npm script tdd
 - add github workflow config
