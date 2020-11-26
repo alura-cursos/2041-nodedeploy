@@ -7,3 +7,14 @@
 - add mock for TabelaFornecedor.js
 - add npm script test
 - add npm script tdd
+- add github workflow config
+- pm2
+  - install
+  - run app
+  - manage apps (describe, list, stop, restart, delete)
+  - terminal monitoring
+  - get logs (flush, reload)
+  - startup scripts (works for systemd, upstart, launchd, rc.d) with startup, save, unstartup
+  - restart when reaching memory limit
+  - load balancer + process control (process, thread, nodejs)
+  - [modules?](https://github.com/Unitech/pm2#pm2-modules) (pm2-logrotate for rotating logs and limit log size, pm2-server-monit for monitoring the current server)
